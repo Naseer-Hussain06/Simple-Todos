@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  margin-top: 0px;
+}
+
+.app-container {
+  display: flex;
+  justify-content: center;
+  background-color: #ffc2a0;
+  height: 100vh;
+  background-size: cover;
+}
+
+.simple-todo-card {
+  background-color: #ffffff;
+  height: 75vh;
+  width: 90%;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px;
+  margin-top: 48px;
+  margin-bottom: 48px;
+  max-width: 1110px;
+}
+
+.title {
+  font-size: 18px;
+  font-family: 'Roboto';
+  color: #ff8542;
+  text-align: center;
+  margin-top: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .title {
+    font-size: 38px;
+  }
+  .simple-todo-card {
+    padding: 48px;
+    margin-top: 96px;
+    margin-bottom: 96px;
+  }
+}
